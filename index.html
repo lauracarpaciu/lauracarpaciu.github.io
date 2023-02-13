@@ -1,225 +1,680 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>Pemodule</title>
-        <meta name="description" content="">
-		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
 
-        <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+<head>
 
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
 
-        <!-- Syntax Highlighter -->
-        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
-        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="icon" type="image/png" href="Mirela.jpeg">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <meta charset="utf-8">
+    <title>Mirela's Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-		<!-- Font Awesome CSS-->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- Normalize/Reset CSS-->
-		<link rel="stylesheet" href="css/normalize.min.css">
-		<!-- Main CSS-->
-        <link rel="stylesheet" href="css/main.css">
 
-    </head>
+    <link rel="stylesheet" href="style.css">
 
-    <body id="welcome">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <aside class="left-sidebar">
-            <div class="logo">
-                <a href="#welcome">
-                    <img src="img/logo.png" alt="">
+    <!-- Libraries CSS Files -->
+
+
+    <!-- Main Stylesheet File -->
+    <link rel="stylesheet" href="neweststyle.css">
+    <link href="newstyle.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body id="page-top">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script src="skills-diagram.coderbits.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!--/ Nav Star /-->
+<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll" href="#page-top">MIRELA LAURA CARPACIU</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#footerr">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--/ Nav End /-->
+
+<!--/ Intro Skew Star /-->
+<div id="home" class="intro route bg-image" style="background-image: url(img0.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+        <div class="table-cell">
+            <div class="container">
+                <!--<p class="display-6 color-d">Hello, world!</p>-->
+                <br><br><br><br><br><br><br><br>
+                <h1 class="intro-title mb-4">My Portfolio</h1>
+                <p class="intro-subtitle"><span
+                        class="text-slider-items">Skills,Talent,Passion,Projects,Publications</span><strong
+                        class="text-slider"></strong></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ Intro Skew End /-->
+<section id="hii">
+    <style>
+            body {
+              font-family: Arial !important;
+              margin: 0 !important;
+            }
+
+            * {
+              box-sizing: border-box !important;
+            }
+
+            img {
+              vertical-align: middle !important;
+            }
+
+            /* Position the image container (needed to position the left and right arrows) */
+            .container {
+              position: relative;
+              align-items: center !important;
+              align-content: center !important;
+              align-self: center !important;
+              text-align: center !important;
+            }
+
+            /* Hide the images by default */
+            .mySlides {
+              display: none ;
+            }
+
+            /* Add a pointer when hovering over the thumbnail images */
+            .cursor {
+              cursor: pointer !important;
+            }
+
+            /* Next & previous buttons */
+            .prev,
+            .next {
+              cursor: pointer !important;
+              position: relative;
+              top: 20% !important;
+
+              width: auto !important;
+              padding: 16px !important;
+              margin-top: -50px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 20px !important;
+              border-radius: 0 3px 3px 0 !important;
+              user-select: none;
+              -webkit-user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px !important;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+              background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2 !important;
+              font-size: 12px !important;
+              padding: 8px 12px !important;
+              position: absolute;
+              top: 0;
+            }
+
+            /* Container for image text */
+            .caption-container {
+              text-align: center !important;
+              background-color: #222;
+              padding: 2px 16px !important;
+              color: white;
+            }
+
+            .row:after {
+              content: "";
+              display: table !important;
+              clear: both;
+            }
+
+            /* Six columns side by side */
+            .column {
+              float: left ;
+              width: 16.66% !important;
+            }
+
+            /* Add a transparency effect for thumnbail images */
+            .demo {
+              opacity: 0.6;
+            }
+
+            .active,
+            .demo:hover {
+              opacity: 1;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+    <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    </div>
+</section>
+<section id="about">
+
+    <div class="aboutt-section">
+        <div class="inner-container">
+            <h1>Some Things About Me</h1>
+            <p class="text">
+                I've already had the chance to experience creating <strong>data visualizations</strong>, the ability to
+                build and interpret regression and classification models, with machine learning, in Python. I also work
+                on <strong> making predictive models using supervised machine learning techniques</strong> and have a
+                strong foundation in mathematics and statistics.
+                <br><br> I have worked on <strong> classification, regression, and data analysis/visualization
+                projects</strong>.
+                Along the way, I have acquired new skills in using Python library like NumPy, Pandas, Scikit Learn,
+                PySpark and Keras.
+                A person who always strives for excellence, I go to every length to ensure
+                that every project I work on is seen to the end.
+                <br><br>My skills include <strong>data analysis,
+                visualization, and machine learning</strong>. I have developed a strong acumen for problem-solving, and
+                I
+                enjoy occasional challenges. Sometimes, I create personal projects.
+                <br><br> You can take a look at some of my projects in the section below. I will link my work to their
+                GitHub repositories, so feel free to download my code and play around with it. Most of my education has
+                come from online platforms. I have downloaded e-books, audited courses on Pluralsite and Udemy.
+            </p>
+
+            <div class="skills">
+                <a class="l" href="https://github.com/lauracarpaciu"> <span>Github</span> </a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section id="publications">
+    <div class="container p-0">
+        <h1>Projects & Publications</h1>
+        <div class="row portfolio-row justify-content-center">
+            <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk"
+                       href="https://github.com/lauracarpaciu/Database_WH">
+                        <h5>Data Warehouse</h5>
+                    </a>
+                    <p class="project-des">
+                        <br> The warehouse becomes a library of historical data that can be retrieved and analyzed in order to inform decision-making in the business.
+                        <br><br>Skills demonstrated:DDL,DML, data analysis/visualization.
+                        <br><br> Publication: GitHub
+                    </p>
+                    <div class="row">
+                        <a target="_blank"
+                           href="https://github.com/lauracarpaciu/Database_WH">
+                            <img class="portfolio-img" src="spam_detector.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/Database_WH"
+                               class="button">Blog Post</a>
+
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/Database_WH"
+                               class="button">Code</a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk" href="https://github.com/lauracarpaciu/OFFICE_SUPPLIES_BI">
+                        <h5>Superstore</h5>
+                    </a>
+                    <p class="project-des">
+                        <br>A superstore is seeking to understanding what works best for them. They would like to understand which products, regions, categories and customer segments they should target or avoid.
+                        <br><br>Skills demonstrated: BI, Data modelling, EDA, Power BI
+                        <br><br> Publication: Github
+                    </p>
+                    <div class="row">
+                        <a target="_blank" href="https://github.com/lauracarpaciu/OFFICE_SUPPLIES_BI">
+                            <img class="portfolio-img" src="img7.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://github.com/lauracarpaciu/OFFICE_SUPPLIES_BI"
+                               class="button">Blog Post</a>
+
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/OFFICE_SUPPLIES_BI"
+                               class="button">Code</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk" href="https://github.com/lauracarpaciu/Concentration-of-gas">
+                        <h5>The presence of CO (ppm) </h5>
+                    </a>
+                    <p class="project-des">
+                        The dataset is a chemical detection platform composed of 14 temperature-modulated metal oxide
+                        semiconductor (MOX) gas sensors. The sensors are exposed to dynamic mixtures of carbon monoxide
+                        (CO) and humid synthetic air in a gas chamber.
+                        <br>My goal is to create a model that will predict the presence of CO (ppm).
+                        <br><br>Skills demonstrated: Python
+                        <br><br> Publication: Github
+                    </p>
+                    <div class="row">
+                        <a target="_blank" href="https://github.com/lauracarpaciu/Concentration-of-gas">
+                            <img class="portfolio-img" src="p2.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://github.com/lauracarpaciu/Concentration-of-gas"
+                               class="button">Blog
+                                Post</a>
+
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/Concentration-of-gas"
+                               class="button">Code</a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk"
+                       href="https://github.com/lauracarpaciu/Human-activity-recognition-with-smartphones">
+                        <h5>Human-activity-recognition-with-smartphones - single-label, multiclass classification </h5>
+                    </a>
+                    <p class="project-des">
+                        <br>In this notebook, I will predict the human activities of daily living using keras Sequential
+                        model
+                        <br><br>Skills demonstrated: Python, Keras, data analysis/visualization, supervised machine
+                        learning
+                        <br><br> Publication: Github
+                    </p>
+                    <div class="row">
+                        <a target="_blank"
+                           href="https://github.com/lauracarpaciu/Human-activity-recognition-with-smartphones">
+                            <img class="portfolio-img" src="p4.jpg">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/Human-activity-recognition-with-smartphones"
+                               class="button">Blog
+                                Post</a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/Human-activity-recognition-with-smartphones"
+                               class="button">Code</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk" href="https://github.com/lauracarpaciu/Bees-vs-Wasps">
+                        <h5>Distinguish bees from wasps. </h5>
+                    </a>
+                    <p class="project-des">
+                        <br>In this notebook, The challenge is primarily to distinguish bees from wasps.
+
+                        <br><br>Skills demonstrated: Python,data analysis/visualization,supervised machine
+                        learning,Convnets.
+                        <br><br> Publication: GitHub
+                    </p>
+                    <div class="row">
+                        <a target="_blank" href="https://github.com/lauracarpaciu/Bees-vs-Wasps">
+                            <img class="portfolio-img" src="img5.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://github.com/lauracarpaciu/Bees-vs-Wasps" class="button">Blog
+                                Post</a>
+
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/Bees-vs-Wasps/blob/master/Computer_Vision.ipynb"
+                               class="button">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+                <div class="text-center">
+                    <a target="_blank" class="title-linkk"
+                       href="https://github.com/lauracarpaciu/LuminaireAdministration">
+                        <h5> Industrial Lighting Products Web App </h5>
+                    </a>
+                    <p class="project-des">
+                        <br>An app for industrial area of activities.
+                        <br><br>Skills demonstrated: Java, Spring framework, REST API.
+
+                        <br><br> Publication: Github
+                    </p>
+
+                    <div class="row">
+                        <a target="_blank" href="https://github.com/lauracarpaciu/LuminaireAdministration">
+                            <img class="portfolio-img" src="img2.jpg">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="https://github.com/lauracarpaciu/LuminaireAdministration"
+                               class="button">Blog Post</a>
+
+                        </div>
+                        <div class="col-6 text-center">
+                            <a target="_blank"
+                               href="https://github.com/lauracarpaciu/LuminaireAdministration"
+                               class="button">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</section>
+
+
+<section id="courses">
+    <div class="container">
+        <br>
+        <h1>Courses </h1>
+        <br><br><br>
+        <div class="row">
+            <div class="col-md-3 profile-pic text-center">
+                <a target="_blank" href="http://www.mathem.pub.ro/__FSA__/MDRP_Flyer-2020.pdf">
+                    <div class="img box">
+                        <img src="mdrp.jpg" class="img-responsive">
+
+                    </div>
+                </a>
+                <br>
+                <a target="_blank" class="title-linkk"
+                   href="http://www.mathem.pub.ro/__FSA__/MDRP_Flyer-2020.pdf">
+                    <h5>&nbsp Decision models, risk and forcasting </h5>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 profile-pic text-center">
+                <a target="_blank" href="https://www.luxoft-training.com/it-course/machine-learning-in-practice/">
+                    <div class="img box">
+                        <img src="p14.jpg" class="img-responsive">
+
+                    </div>
+                </a>
+                <br>
+                <a target="_blank" class="title-linkk"
+                   href="https://www.luxoft-training.com/it-course/machine-learning-in-practice/">
+                    <h5>&nbsp Machine-learning-in-practice </h5>
                 </a>
             </div>
-            <nav class="left-nav">
-                <ul id="nav">
-                    <li class="current"><a href="#welcome">Welcome</a></li>
-                    <li><a href="#installation">Installation</a></li>
-                    <li><a href="#tmpl-structure">Structure</a></li>
-                    <li><a href="#css-structure">CSS Files</a></li>
-                    <li><a href="#javascript">JavaScript Libraries</a></li>
-                    <li><a href="#subscription-form">Subscription Form</a></li>
-                    <li><a href="#video">Video Tutorial</a></li>
-                    <li><a href="#credit">Source and Credit</a></li>
-                </ul>
-            </nav>
-        </aside>
 
-		<div id="main-wrapper">
-		    <div class="main-content">
-		        <section id="welcome">
-		            <div class="content-header">
-		                <h1>Pemodule Landing Page</h1>
-		            </div>
-		            <div class="welcome">
-                        <h2 class="twenty">Welcome To Pemodule Landing Page</h2>
-                        <p>Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!</p>
-                        <p>This document covers the installation and use of this theme and often reveals answers to common problems and issues - read this document thoroughly if you are experiencing any difficulties. Thank you so much!</p>
-		            </div>
+            <div class="col-md-3 profile-pic text-center">
+                <a target="_blank" href="https://www.sololearn.com/learning/1073">
+                    <div class="img box">
+                        <img src="p17.jpg" class="img-responsive">
 
-		            <div class="features">
-		                <h2 class="twenty">Template Features</h2>
-
-		                <ul>
-		                    <li>Clean &amp; Simple Design</li>
-                            <li>HTML5 &amp; CSS3</li>
-                            <li>Fully Responsive Design</li>
-                            <li>PHP/Ajax Powered Working Contact Form</li>
-                            <li>All files are well commented</li>
-                            <li>Cross Browser Compatible with IE11+, Firefox, Safari, Opera, Chrome</li>
-                            <li>Extensive Documentation</li>
-		                </ul>
-		            </div>
-		        </section>
-		        <section id="installation">
-                    <div class="content-header">
-		                <h1>Go Crepe Landing Page</h1>
                     </div>
-                    <h2 class="title">Installing Template.</h2>
+                </a>
+                <br>
+                <a target="_blank" class="title-linkk" href="https://www.sololearn.com/learning/1073">
+                    <h5>&nbsp Python 3 </h5>
+                </a>
 
-                    <div class="section-content">
-                        <ol>
-                            <li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
-                            <li>You can view this Template in any browser, you can display or edit the Template without an internet connection.(May not wotrk fonts and google map).</li>
-                            <li>The only section that will not work is the Contact Section which contains PHP code and requires a server environment for send messages.</li>
-                            <li>Now go to your cpanel or open your FTP Client (like <a target="_blank" href="https://filezilla-project.org/download.php">Filezilla</a>) and upload the content of the Template on your server root.</li>
-                            <li>Once the files are done uploading go to www.yourdomainname.com/index.html</li>
-                        </ol>
+            </div>
+
+            <div class="col-md-3 profile-pic text-center">
+                <a target="_blank" href="https://www.pluralsight.com/courses/java-fundamentals-language">
+                    <div class="img box">
+                        <img src="p15.jpg" class="img-responsive">
+
                     </div>
+                </a>
+                <br>
+                <a target="_blank" class="title-linkk"
+                   href="https://www.pluralsight.com/courses/java-fundamentals-language">
+                    <h5>&nbsp Java-fundamentals-language </h5>
+                </a>
 
-		        </section>
+            </div>
 
-
-		        <section id="tmpl-structure">
-		            <h2 class="title">Template Structure</h2>
-		            <p class="fifteen">All information within the main content area is nested within a body tag. The general template structure is pretty the same throughout the template. Here is the general structure of main page (index.html).</p>
-		            <pre class="brush: html">
-		                <header class="site-header">
-
-		                </header>
-
-		                <main class="site-main">
-		                	<section class="section">
-
-		                	</section>
-		                	<section class="section">
-
-		                	</section>
-		                	<section class="section">
-
-		                	</section>
-		                </main>
-
-		                <footer class="site-footer">
-
-		                </footer>
-		            </pre>
-		        </section>
+        </div>
 
 
-		        <section id="css-structure">
-		            <h2 class="title">CSS Files and Structure</h2>
-		            <p class="fifteen">These are the css files that are loaded into templates in <strong>Head Section</strong>.</p>
-		            <pre class="brush: html">
-		                <!--
-						CSS
-						============================================= -->
-						<link rel="stylesheet" href="css/linearicons.css">
-						<link rel="stylesheet" href="css/owl.carousel.css">
-						<link rel="stylesheet" href="css/font-awesome.min.css">
-						<link rel="stylesheet" href="css/nice-select.css">
-						<link rel="stylesheet" href="css/nice-select.css">
-						<link rel="stylesheet" href="css/magnific-popup.css">
-						<link rel="stylesheet" href="css/main.css">
-		            </pre>
-
-		            <h2 class="title">Google Web Fonts</h2>
-
-		            <p>By default, the template loads this font from Google Web Font Services, you can change the font with the one that suits you best.</p>
-
-		            <pre class="brush:html">
-						<!--
-						Google Font
-						=========================== -->
-		                <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
-		            </pre>
-
-		            <p class="twenty">Remember to change the font into <strong>main.css</strong></p>
-		        </section>
-
-		        <section id="javascript">
-		            <h2 class="title">Javascript Files and Structure</h2>
-
-		            <p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the <strong>Body Section</strong>.
-
-		            <pre class="brush: html">
-				        <!--
-						JavaScripts
-						========================== -->
-						<script src="js/vendor/jquery-2.2.4.min.js"></script>
-						<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-						<script src="js/vendor/bootstrap.min.js"></script>
-						<script src="js/jquery.ajaxchimp.min.js"></script>
-						<script src="js/owl.carousel.min.js"></script>
-						<script src="js/jquery.nice-select.min.js"></script>
-						<script src="js/query.magnific-popup.min.js"></script>
-						<script src="js/main.js"></script>
-		            </pre>
-		        </section>
-
-		        <section id="subscription-form">
-		            <h2 class="title"> Subscription Form </h2>
-		            <p>Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".</p>
-		            <pre class="brush: javascript">
-				        <div id="mc_embed_signup">
-				        	//Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
-				        	<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative d-flex justify-content-center"></form>
-				        </div>
-		            </pre>
-		        </section>
-		        <section id="video">
-		        	<h2 class="title"> Video Tutorial </h2>
-		        	<!-- 21:9 aspect ratio -->
-					<div class="embed-responsive embed-responsive-21by9">
-					  <iframe class="embed-responsive-item" width="100%" height="515" src="https://www.youtube.com/embed/i7_PRPLOxVE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-					</div>
-		        </section>
-		        <section id="credit">
-		            <h2 class="title">Source and Credit</h2>
-		            <div class="script-source">
-		                <ul>
-		                    <li><a target="_blank" href="http://www.pexels.com">Pexels</a></li>
-		                    <li><a target="_blank" href="http://jquery.com/">jQuery</a></li>
-		                    <li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
-		                    <li><a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
-		                    <li><a target="_blank" href="http://www.owlgraphic.com/owlcarousel">Owl Carousel</a></li>
-		                    <li><a target="_blank" href="https://github.com/iamMonzurul/jQuery-AJAX-MailChimp">Ajax Mailchimp</a></li>
-		                    <li><a target="_blank" href="http://fontawesome.io/">FontAwesome</a></li>
-		                    <li><a target="_blank" href="https://linearicons.com/">Linear Icons</a></li>
-		                </ul>
-		            </div>
-		        </section>
-		    </div>
-		</div>
+    </div>
+</section>
 
 
-		<!-- Essential JavaScript Libraries
-		==============================================-->
-        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
-        <script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script>
-        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script>
-        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script>
-        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script>
-        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script>
-        <script type="text/javascript">
-            SyntaxHighlighter.all()
-        </script>
-        <script type="text/javascript" src="js/custom.js"></script>
+<footer class="py-5 bg-light" id="footerr">
+    <div class="container text-center">
 
-    </body>
+
+        <hr class="my-5">
+        <div class="mb-3">
+            <a href="https://www.linkedin.com/feed/" class="w-6 mx-1">
+                <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                     xmlns:serif="http://www.serif.com/"
+                     style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.serif.com/
+http://www.serif.com/ ">
+                                                     <path id="Shape" d="M7.3,0.9c1.5,-0.6 3.1,-0.9 4.7,-0.9c1.6,0 3.2,0.3 4.7,0.9c1.5,0.6 2.8,1.5
+                                                        3.8,2.6c1,1.1 1.9,2.3 2.6,3.8c0.7,1.5 0.9,3 0.9,4.7c0,1.7 -0.3,3.2
+                                                        -0.9,4.7c-0.6,1.5 -1.5,2.8 -2.6,3.8c-1.1,1 -2.3,1.9 -3.8,2.6c-1.5,0.7
+                                                        -3.1,0.9 -4.7,0.9c-1.6,0 -3.2,-0.3 -4.7,-0.9c-1.5,-0.6 -2.8,-1.5
+                                                        -3.8,-2.6c-1,-1.1 -1.9,-2.3 -2.6,-3.8c-0.7,-1.5 -0.9,-3.1 -0.9,-4.7c0,-1.6
+                                                        0.3,-3.2 0.9,-4.7c0.6,-1.5 1.5,-2.8 2.6,-3.8c1.1,-1 2.3,-1.9
+                                                        3.8,-2.6Zm-0.3,7.1c0.6,0 1.1,-0.2 1.5,-0.5c0.4,-0.3 0.5,-0.8 0.5,-1.3c0,-0.5
+                                                        -0.2,-0.9 -0.6,-1.2c-0.4,-0.3 -0.8,-0.5 -1.4,-0.5c-0.6,0 -1.1,0.2
+                                                        -1.4,0.5c-0.3,0.3 -0.6,0.7 -0.6,1.2c0,0.5 0.2,0.9 0.5,1.3c0.3,0.4 0.9,0.5
+                                                        1.5,0.5Zm1.5,10l0,-8.5l-3,0l0,8.5l3,0Zm11,0l0,-4.5c0,-1.4 -0.3,-2.5
+                                                        -0.9,-3.3c-0.6,-0.8 -1.5,-1.2 -2.6,-1.2c-0.6,0 -1.1,0.2 -1.5,0.5c-0.4,0.3
+                                                        -0.8,0.8 -0.9,1.3l-0.1,-1.3l-3,0l0.1,2l0,6.5l3,0l0,-4.5c0,-0.6 0.1,-1.1
+                                                        0.4,-1.5c0.3,-0.4 0.6,-0.5 1.1,-0.5c0.5,0 0.9,0.2 1.1,0.5c0.2,0.3 0.4,0.8
+                                                        0.4,1.5l0,4.5l2.9,0Z"></path>
+                                                  </svg>
+            </a>
+            <a href="https://medium.com/@mirela.carpaciu" class="w-6 mx-1">
+                <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                     xmlns:serif="http://www.serif.com/"
+                     style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.serif.com/
+http://www.serif.com/ ">
+                                                     <path id="Combined-Shape" d="M12,24c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12c-6.627,0
+                                                        -12,5.373 -12,12c0,6.627 5.373,12 12,12Zm6.591,-15.556l-0.722,0c-0.189,0
+                                                        -0.681,0.208 -0.681,0.385l0,6.422c0,0.178 0.492,0.323
+                                                        0.681,0.323l0.722,0l0,1.426l-4.675,0l0,-1.426l0.935,0l0,-6.655l-0.163,0l-2.251,8.081l-1.742,0l-2.222,-8.081l-0.168,0l0,6.655l0.935,0l0,1.426l-3.74,0l0,-1.426l0.519,0c0.203,0
+                                                        0.416,-0.145 0.416,-0.323l0,-6.422c0,-0.177 -0.213,-0.385
+                                                        -0.416,-0.385l-0.519,0l0,-1.426l4.847,0l1.583,5.704l0.042,0l1.598,-5.704l5.021,0l0,1.426Z"></path>
+                                                  </svg>
+            </a>
+
+        </div>
+        <p class="text-secondary">Copyright 2021. All rights reserved!</p>
+    </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/index.js">
+
+
+       <!-- JavaScript Libraries -->
+           <script src="lib/jquery/jquery.min.js">
+
+
+
+
+</script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/popper/popper.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/counterup/jquery.waypoints.min.js"></script>
+<script src="lib/counterup/jquery.counterup.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script src="lib/typed/typed.min.js"></script>
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+
+<!-- Template Main Javascript File -->
+<script src="js/main.js"></script>
+
+<script src="jss/main.js"></script>
+
+</body>
+
+
 </html>
